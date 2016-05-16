@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace Kolokwium
 {
-    class Program
+    public class Program
     {
+        public static int Fishes()
+        {
+            return 0;
+        }
         static void Main(string[] args)
         {
         }
