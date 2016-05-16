@@ -42,6 +42,10 @@ namespace Kolokwium
         }
         static void Main(string[] args)
         {
+            int[] a = new int[] { 4, 3, 2, 1, 5 };
+            int[] b = new int[] { 0, 1, 0, 0, 0 };
+            Console.WriteLine(Fishes(a, b));
+            Console.ReadKey();
         }
     }
 }
