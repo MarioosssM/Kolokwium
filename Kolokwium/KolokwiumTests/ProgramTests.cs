@@ -16,11 +16,15 @@ namespace Kolokwium.Tests
         {
             int[] a = new int[] { 4, 3, 2, 1, 5 };
             int[] b = new int[] { 0, 1, 0, 0, 0 };
-            Assert.AreEqual(2, Program.Fishes(a, b));
+            Assert.AreEqual(2, Program.Fishes(a, b)); 
             // Assert.Fail();
-            int[] c = new int[] { 4, 3, 2, 1, 5 };
+           /* int[] c = new int[] { 4, 3, 2, 1, 5 };
             int[] d = new int[] { 0, 0, 1, 0, 0 };
             Assert.AreEqual(1, Program.Fishes(c, d));
+
+            int[] e = new int[] { 4, 3, 2, 1, 5 };
+            int[] f = new int[] { 0, 0, 0, 1, 0 };
+            Assert.AreEqual(5, Program.Fishes(e, f)); */
         }
     }
 }
