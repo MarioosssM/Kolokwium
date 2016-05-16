@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace Kolokwium
 {
+    /// <summary>
+    /// <param name="A"> Array representing size</param>
+    /// <param name="B"> Array representing direction</param>
+    /// <param name="aliveFish"> Stos representing fish in river </param>
+    /// </summary>
     public class Program
     {
         public static int Fishes(int[] A, int[] B)
